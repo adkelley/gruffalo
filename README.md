@@ -1,16 +1,9 @@
-![series_banner](resources/banner.png)
-# Template for new SWI-Prolog projects
-
-Before proceeding with the instructions below, be sure to download and install [SWI-Prolog](https://www.swi-prolog.org/Download.html).
+![series_banner](resources/gruffalo_200x248.jpg)
+# Gruffalo - Story Generation Class Project
+For the Prolog Advanced Class Project (May 2020) I modeled a planner after The Gruffalo bedtime story by Julia Donaldson and Axel Scheffler.  This project, in its final form, is a small web application that lets parents enter names of their child's favorite objects and then generates coherent, customized bedtime stories that make sense using those pets.
 ## Instructions
 
-To convert this template to your own project:
-1. Replace the word *starter* with the name of your main program in both `Makefile` and `load.pl`.
-2. Replace `src/starter.pl` and `src/substarter.pl` with your own main program.
-3. Replace `src/starter.plt` and `src/substarter.plt` with your own tests.
-4. Use `make <target>` where `<target>` is either `test`, `cov`, `repl`, or `args` to compile and run your program.
-5. Uncomment lines 37-39 in `load.pl` to run a `pldoc` documentation server locally (see References)
-
+TBD
 ## Makefile explanation
 1. `make test` will compile the source code, and run the unit tests.
 2. `make cov` performs step 1 and, in addition, will print information about coverage by file (e.g., number of clauses).
